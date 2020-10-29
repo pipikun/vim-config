@@ -141,4 +141,12 @@ endfunc
 
 
 " colorscheme config
-set colorscheme desert
+set colorscheme molokai
+set t_Co=256
+set background=dark
+syntax on
+set nu!
+
+let g:molokai_original=1
+let g:rehash256=1
+
